@@ -2,9 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+import fsyUI from "./components/index"
 Vue.config.productionTip = false
-
+Vue.use(fsyUI)
 new Vue({
   router,
   store,
